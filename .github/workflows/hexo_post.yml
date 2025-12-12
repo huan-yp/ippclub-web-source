@@ -35,8 +35,8 @@ jobs:
 
       - name: Deploy Blog
         run: |
-          git config --global user.name "harkerhand"
-          git config --global user.email "harkerhand@outlook.com"
+          git config --global user.name "ippclub"
+          git config --global user.email "ippclub@outlook.com"
           hexo deploy
 
       - run: echo "Deploy Successful!"
